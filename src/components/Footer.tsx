@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Japan Office */}
           <div className="text-center md:text-left">
-            <h3 className="text-emerald-500 font-semibold text-base md:text-lg mb-3 md:mb-4">Japan Office</h3>
+            <h3 className="text-green-400 font-semibold text-base md:text-lg mb-3 md:mb-4">Japan Office</h3>
             <p className="text-white text-xs md:text-sm leading-relaxed">
               {t({
                 JP: '東京都中央区日本橋室町1-2-6-7F',
@@ -35,7 +35,7 @@ export default function Footer() {
 
           {/* Malaysia Office */}
           <div className="text-center md:text-left">
-            <h3 className="text-emerald-500 font-semibold text-base md:text-lg mb-3 md:mb-4">Malaysia Office</h3>
+            <h3 className="text-green-400 font-semibold text-base md:text-lg mb-3 md:mb-4">Malaysia Office</h3>
             <p className="text-white text-xs md:text-sm leading-relaxed">
               IB Tower, Level 33, 8, Lrg Binjai, Kuala Lumpur, 50450 Kuala Lumpur, Malaysia
             </p>
@@ -43,7 +43,7 @@ export default function Footer() {
 
           {/* Singapore Office */}
           <div className="text-center md:text-left">
-            <h3 className="text-emerald-500 font-semibold text-base md:text-lg mb-3 md:mb-4">Singapore Office</h3>
+            <h3 className="text-green-400 font-semibold text-base md:text-lg mb-3 md:mb-4">Singapore Office</h3>
             <p className="text-white text-xs md:text-sm leading-relaxed">
               Level 39, Marina Bay Financial Centre, 10 Marina Blvd, Tower 2, Singapore
             </p>
@@ -51,7 +51,7 @@ export default function Footer() {
 
           {/* Hong Kong Office */}
           <div className="text-center md:text-left">
-            <h3 className="text-emerald-500 font-semibold text-base md:text-lg mb-3 md:mb-4">Hong Kong Office</h3>
+            <h3 className="text-green-400 font-semibold text-base md:text-lg mb-3 md:mb-4">Hong Kong Office</h3>
             <p className="text-white text-xs md:text-sm leading-relaxed">
               Tower I, Grand Century Place, 193 Prince Edward Road West, Hong Kong SAR
             </p>
