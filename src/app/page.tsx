@@ -34,7 +34,7 @@ export default function Home() {
         <IndustryApproach />
         <TeamMembers />
         <Partners />
-        <TokenInfo />{/* */}
+        {/* <TokenInfo />*/}
         {/*<FAQ />*/}
         {/*<News />*/}
         <Footer />
