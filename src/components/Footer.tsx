@@ -26,7 +26,10 @@ export default function Footer() {
           <div className="text-center md:text-left">
             <h3 className="text-emerald-500 font-semibold text-base md:text-lg mb-3 md:mb-4">Japan Office</h3>
             <p className="text-white text-xs md:text-sm leading-relaxed">
-              Nihonbashi Daiei Bldg 7F, 1-2-6 Nihonbashi-Muromachi, Chuo-ku, Tokyo, Japan
+              {t({
+                JP: '東京都中央区日本橋室町1-2-6-7F',
+                EN: 'Nihonbashi Daiei Bldg 7F, 1-2-6 Nihonbashi-Muromachi, Chuo-ku, Tokyo, Japan'
+              })}
             </p>
           </div>
 
