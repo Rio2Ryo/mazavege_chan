@@ -39,7 +39,7 @@ export default function Home() {
         {/*<FAQ />*/}
         <Footer />
 
-        {/* Mazavege-chan Fixed GIF */}
+        {/* Mazavege-chan Fixed GIF 
         <div className="fixed bottom-4 right-4 z-50 flex flex-col items-center">
           <img
             src="/mazavegechan.gif"
@@ -51,7 +51,7 @@ export default function Home() {
             <p>AI Agent</p>
             <p>Coming Soon!!</p>
           </div>
-        </div>
+        </div>*/}
       </main>
     </>
   )
