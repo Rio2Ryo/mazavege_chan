@@ -19,22 +19,22 @@ export default function CaseStudies() {
         "雇用創出：200名以上"
       ]
     },
-    {
-      title: "九州電工エネルギープラント",
-      category: "エネルギー",
-      location: "日本",
-      scale: "10MW施設",
-      co2Reduction: "年間50,000トン",
-      roi: "投資回収4年",
-      description: "発電所の排出CO₂を直接吸収し、バイオマスエネルギーとして再利用する循環システムを構築。",
-      image: "/Kyushudenko.jpeg",
-      results: [
-        "CO₂削減量：50,000トン/年",
-        "エネルギー効率：25%向上",
-        "運用コスト：30%削減",
-        "特許取得：3件"
-      ]
-    },
+    // {
+    //   title: "九州電工エネルギープラント",
+    //   category: "エネルギー",
+    //   location: "日本",
+    //   scale: "10MW施設",
+    //   co2Reduction: "年間50,000トン",
+    //   roi: "投資回収4年",
+    //   description: "発電所の排出CO₂を直接吸収し、バイオマスエネルギーとして再利用する循環システムを構築。",
+    //   image: "/Kyushudenko.jpeg",
+    //   results: [
+    //     "CO₂削減量：50,000トン/年",
+    //     "エネルギー効率：25%向上",
+    //     "運用コスト：30%削減",
+    //     "特許取得：3件"
+    //   ]
+    // },
     {
       title: "シンガポール都市緑化プロジェクト",
       category: "都市開発",

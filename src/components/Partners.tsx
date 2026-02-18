@@ -205,14 +205,14 @@ export default function Partners() {
     //   }),
     //   image: "/jtb-logo.svg"
     // },
-    {
-      name: t({ JP: "九州電工", EN: "Kyushu Denko" }),
-      description: t({
-        JP: "日本の大手電力会社：藻場（海藻の群落）を造成することで、魚貝類の住処としての機能や水質浄化、さらにはCO₂固定機能を活かした藻場再生の実用化研究に2001年度から取り組んでいます。MOTHER VEGETABLEを活用したバイオマスにより生産性の向上を検討している。",
-        EN: "Major Japanese power company: Since 2001, engaged in practical research on seaweed bed restoration utilizing functions as habitat for fish and shellfish, water purification, and CO₂ fixation through creating seaweed beds. Exploring productivity improvements through biomass utilizing MOTHER VEGETABLE."
-      }),
-      image: "/Kyushudenko.jpeg"
-    },
+    // {
+    //   name: t({ JP: "九州電工", EN: "Kyushu Denko" }),
+    //   description: t({
+    //     JP: "日本の大手電力会社：藻場（海藻の群落）を造成することで、魚貝類の住処としての機能や水質浄化、さらにはCO₂固定機能を活かした藻場再生の実用化研究に2001年度から取り組んでいます。MOTHER VEGETABLEを活用したバイオマスにより生産性の向上を検討している。",
+    //     EN: "Major Japanese power company: Since 2001, engaged in practical research on seaweed bed restoration utilizing functions as habitat for fish and shellfish, water purification, and CO₂ fixation through creating seaweed beds. Exploring productivity improvements through biomass utilizing MOTHER VEGETABLE."
+    //   }),
+    //   image: "/Kyushudenko.jpeg"
+    // },
     {
       name: t({ JP: "全国姉妹漁業振興協議会株式会社", EN: "National Sister Fisheries Promotion Council Inc." }),
       description: t({
@@ -282,14 +282,14 @@ export default function Partners() {
       }),
       image: "/Mahidol-7ODll9ol.jpeg"
     },
-    {
-      name: t({ JP: "明治大学", EN: "Meiji University" }),
-      description: t({
-        JP: "体育会競技者に対してMother Vegetable関連製品を提供するスポンサーシップ協力により、持続可能な栄養ソリューションを通じたスポーツパフォーマンスの支援を実施しています。",
-        EN: "Supporting sports performance through sustainable nutrition solutions via sponsorship cooperation providing Mother Vegetable-related products to athletic competitors."
-      }),
-      image: "/Meiji-C7G7ovOM.jpeg"
-    }
+    // {
+    //   name: t({ JP: "明治大学", EN: "Meiji University" }),
+    //   description: t({
+    //     JP: "体育会競技者に対してMother Vegetable関連製品を提供するスポンサーシップ協力により、持続可能な栄養ソリューションを通じたスポーツパフォーマンスの支援を実施しています。",
+    //     EN: "Supporting sports performance through sustainable nutrition solutions via sponsorship cooperation providing Mother Vegetable-related products to athletic competitors."
+    //   }),
+    //   image: "/Meiji-C7G7ovOM.jpeg"
+    // }
   ]
 
   return (
