@@ -8,10 +8,19 @@ export default function DownloadPage() {
           min-height: 100vh;
           background-color: #000;
           display: flex;
+          flex-direction: column;
           align-items: center;
           justify-content: center;
           padding: 20px;
           font-family: 'Exo 2', 'Rajdhani', sans-serif;
+          gap: 32px;
+        }
+        .dl-heading {
+          color: #4ade80;
+          font-size: 24px;
+          font-weight: 700;
+          text-align: center;
+          letter-spacing: 0.05em;
         }
         .dl-grid {
           display: flex;
@@ -74,6 +83,7 @@ export default function DownloadPage() {
         }
       `}</style>
       <div className="dl-container">
+        <h1 className="dl-heading">成分と使用方法について</h1>
         <div className="dl-grid">
           {/* Achieve Card */}
           <div className="dl-card">
