@@ -1,9 +1,9 @@
 'use client'
 
 export default function DownloadPage() {
-    return (
-        <>
-            <style>{`
+  return (
+    <>
+      <style>{`
         .dl-container {
           min-height: 100vh;
           background-color: #000;
@@ -29,6 +29,7 @@ export default function DownloadPage() {
           display: flex;
           flex-direction: column;
           gap: 16px;
+          align-items: center;
         }
         .dl-title {
           color: #4ade80;
@@ -36,10 +37,17 @@ export default function DownloadPage() {
           font-weight: 700;
           text-align: center;
           letter-spacing: 0.05em;
-          margin: 0 0 8px 0;
+          margin: 0;
+        }
+        .dl-capsule {
+          width: 80px;
+          height: auto;
+          margin: 8px 0 16px 0;
+          object-fit: contain;
         }
         .dl-btn {
           display: block;
+          width: 100%;
           background-color: #000;
           border: 1px solid rgba(74, 222, 128, 0.25);
           border-radius: 10px;
@@ -65,41 +73,51 @@ export default function DownloadPage() {
           }
         }
       `}</style>
-            <div className="dl-container">
-                <div className="dl-grid">
-                    {/* Achieve Card */}
-                    <div className="dl-card">
-                        <h2 className="dl-title">Mother Vegetable Achieve</h2>
-                        <a href="#" className="dl-btn dl-btn-disabled" onClick={(e) => e.preventDefault()}>
-                            English
-                        </a>
-                        <a
-                            href="/achieve-guide.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="dl-btn dl-btn-active"
-                        >
-                            日本語
-                        </a>
-                    </div>
+      <div className="dl-container">
+        <div className="dl-grid">
+          {/* Achieve Card */}
+          <div className="dl-card">
+            <h2 className="dl-title">Mother Vegetable Achieve</h2>
+            <img
+              src="/achieve-capsule.png"
+              alt="Achieve Capsule"
+              className="dl-capsule"
+            />
+            <a href="#" className="dl-btn dl-btn-disabled" onClick={(e) => e.preventDefault()}>
+              English
+            </a>
+            <a
+              href="/achieve-guide.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="dl-btn dl-btn-active"
+            >
+              日本語
+            </a>
+          </div>
 
-                    {/* Confidence Card */}
-                    <div className="dl-card">
-                        <h2 className="dl-title">Mother Vegetable Confidence</h2>
-                        <a href="#" className="dl-btn dl-btn-disabled" onClick={(e) => e.preventDefault()}>
-                            English
-                        </a>
-                        <a
-                            href="/confidence-guide.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="dl-btn dl-btn-active"
-                        >
-                            日本語
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </>
-    );
+          {/* Confidence Card */}
+          <div className="dl-card">
+            <h2 className="dl-title">Mother Vegetable Confidence</h2>
+            <img
+              src="/confidence-capsule.png"
+              alt="Confidence Capsule"
+              className="dl-capsule"
+            />
+            <a href="#" className="dl-btn dl-btn-disabled" onClick={(e) => e.preventDefault()}>
+              English
+            </a>
+            <a
+              href="/confidence-guide.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="dl-btn dl-btn-active"
+            >
+              日本語
+            </a>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
