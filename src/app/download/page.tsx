@@ -2,166 +2,104 @@
 
 export default function DownloadPage() {
     return (
-        <div
-            style={{
-                minHeight: '100vh',
-                backgroundColor: '#000',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                padding: '20px',
-                fontFamily: "'Exo 2', 'Rajdhani', sans-serif",
-            }}
-        >
-            <div
-                style={{
-                    border: '1px solid rgba(74, 222, 128, 0.3)',
-                    borderRadius: '16px',
-                    padding: '48px 40px',
-                    maxWidth: '720px',
-                    width: '100%',
-                    backgroundColor: 'rgba(15, 23, 42, 0.6)',
-                    backdropFilter: 'blur(12px)',
-                }}
-            >
-                <div
-                    style={{
-                        display: 'grid',
-                        gridTemplateColumns: '1fr 1fr',
-                        gap: '40px',
-                    }}
-                >
-                    {/* Left Column - Achieve */}
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                        <h2
-                            style={{
-                                color: '#4ade80',
-                                fontSize: '16px',
-                                fontWeight: 700,
-                                textAlign: 'center',
-                                letterSpacing: '0.05em',
-                                marginBottom: '8px',
-                            }}
-                        >
-                            Mother Vegetable Achieve
-                        </h2>
-                        <a
-                            href="#"
-                            style={{
-                                display: 'block',
-                                backgroundColor: '#000',
-                                border: '1px solid rgba(74, 222, 128, 0.25)',
-                                borderRadius: '10px',
-                                padding: '20px 16px',
-                                textAlign: 'center',
-                                color: '#4ade80',
-                                fontSize: '15px',
-                                fontWeight: 600,
-                                textDecoration: 'none',
-                                cursor: 'default',
-                                opacity: 0.4,
-                                transition: 'all 0.3s ease',
-                            }}
-                        >
+        <>
+            <style>{`
+        .dl-container {
+          min-height: 100vh;
+          background-color: #000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 20px;
+          font-family: 'Exo 2', 'Rajdhani', sans-serif;
+        }
+        .dl-grid {
+          display: flex;
+          gap: 32px;
+          max-width: 800px;
+          width: 100%;
+        }
+        .dl-card {
+          flex: 1;
+          border: 1px solid rgba(74, 222, 128, 0.3);
+          border-radius: 16px;
+          padding: 40px 32px;
+          background-color: rgba(15, 23, 42, 0.6);
+          backdrop-filter: blur(12px);
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+        }
+        .dl-title {
+          color: #4ade80;
+          font-size: 16px;
+          font-weight: 700;
+          text-align: center;
+          letter-spacing: 0.05em;
+          margin: 0 0 8px 0;
+        }
+        .dl-btn {
+          display: block;
+          background-color: #000;
+          border: 1px solid rgba(74, 222, 128, 0.25);
+          border-radius: 10px;
+          padding: 20px 16px;
+          text-align: center;
+          color: #4ade80;
+          font-size: 15px;
+          font-weight: 600;
+          text-decoration: none;
+          transition: all 0.3s ease;
+        }
+        .dl-btn-active:hover {
+          border-color: #4ade80;
+          box-shadow: 0 0 20px rgba(74, 222, 128, 0.15);
+        }
+        .dl-btn-disabled {
+          opacity: 0.4;
+          cursor: default;
+        }
+        @media (max-width: 640px) {
+          .dl-grid {
+            flex-direction: column;
+          }
+        }
+      `}</style>
+            <div className="dl-container">
+                <div className="dl-grid">
+                    {/* Achieve Card */}
+                    <div className="dl-card">
+                        <h2 className="dl-title">Mother Vegetable Achieve</h2>
+                        <a href="#" className="dl-btn dl-btn-disabled" onClick={(e) => e.preventDefault()}>
                             English
                         </a>
                         <a
                             href="/achieve-guide.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
-                            style={{
-                                display: 'block',
-                                backgroundColor: '#000',
-                                border: '1px solid rgba(74, 222, 128, 0.25)',
-                                borderRadius: '10px',
-                                padding: '20px 16px',
-                                textAlign: 'center',
-                                color: '#4ade80',
-                                fontSize: '15px',
-                                fontWeight: 600,
-                                textDecoration: 'none',
-                                cursor: 'pointer',
-                                transition: 'all 0.3s ease',
-                            }}
-                            onMouseEnter={(e) => {
-                                e.currentTarget.style.borderColor = '#4ade80';
-                                e.currentTarget.style.boxShadow = '0 0 20px rgba(74, 222, 128, 0.15)';
-                            }}
-                            onMouseLeave={(e) => {
-                                e.currentTarget.style.borderColor = 'rgba(74, 222, 128, 0.25)';
-                                e.currentTarget.style.boxShadow = 'none';
-                            }}
+                            className="dl-btn dl-btn-active"
                         >
                             日本語
                         </a>
                     </div>
 
-                    {/* Right Column - Confidence */}
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                        <h2
-                            style={{
-                                color: '#4ade80',
-                                fontSize: '16px',
-                                fontWeight: 700,
-                                textAlign: 'center',
-                                letterSpacing: '0.05em',
-                                marginBottom: '8px',
-                            }}
-                        >
-                            Mother Vegetable Confidence
-                        </h2>
-                        <a
-                            href="#"
-                            style={{
-                                display: 'block',
-                                backgroundColor: '#000',
-                                border: '1px solid rgba(74, 222, 128, 0.25)',
-                                borderRadius: '10px',
-                                padding: '20px 16px',
-                                textAlign: 'center',
-                                color: '#4ade80',
-                                fontSize: '15px',
-                                fontWeight: 600,
-                                textDecoration: 'none',
-                                cursor: 'default',
-                                opacity: 0.4,
-                                transition: 'all 0.3s ease',
-                            }}
-                        >
+                    {/* Confidence Card */}
+                    <div className="dl-card">
+                        <h2 className="dl-title">Mother Vegetable Confidence</h2>
+                        <a href="#" className="dl-btn dl-btn-disabled" onClick={(e) => e.preventDefault()}>
                             English
                         </a>
                         <a
                             href="/confidence-guide.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
-                            style={{
-                                display: 'block',
-                                backgroundColor: '#000',
-                                border: '1px solid rgba(74, 222, 128, 0.25)',
-                                borderRadius: '10px',
-                                padding: '20px 16px',
-                                textAlign: 'center',
-                                color: '#4ade80',
-                                fontSize: '15px',
-                                fontWeight: 600,
-                                textDecoration: 'none',
-                                cursor: 'pointer',
-                                transition: 'all 0.3s ease',
-                            }}
-                            onMouseEnter={(e) => {
-                                e.currentTarget.style.borderColor = '#4ade80';
-                                e.currentTarget.style.boxShadow = '0 0 20px rgba(74, 222, 128, 0.15)';
-                            }}
-                            onMouseLeave={(e) => {
-                                e.currentTarget.style.borderColor = 'rgba(74, 222, 128, 0.25)';
-                                e.currentTarget.style.boxShadow = 'none';
-                            }}
+                            className="dl-btn dl-btn-active"
                         >
                             日本語
                         </a>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
