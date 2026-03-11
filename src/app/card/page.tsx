@@ -83,7 +83,10 @@ export default function DownloadPage() {
         }
       `}</style>
       <div className="dl-container">
-        <h1 className="dl-heading">成分と使用方法について</h1>
+        <div style={{ textAlign: 'center' }}>
+          <p className="dl-heading" style={{ fontSize: '20px', marginBottom: '4px' }}>Ingredients &amp; Usage</p>
+          <h1 className="dl-heading">成分と使用方法について</h1>
+        </div>
         <div className="dl-grid">
           {/* Achieve Card */}
           <div className="dl-card">
