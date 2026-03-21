@@ -179,7 +179,7 @@ export default function Partners() {
         JP: " アジア圏の海洋産業振興およびMother Vegetable社との連携により、多角的な環境事業を展開しています。海洋分野では藻場の再生活動（ブルーカーボン）や水質改善に取り組み、バイオマス分野ではエネルギー自給率の向上を目指して油脂植物からバイオディーゼルやバイオエタノール等の液体燃料を生産・提供しています。そのほか農業分野においては食料自給率の向上や酪農・畜産農家における飼料コストの削減の推進し、バイオスティミュラント（バイオマスイオンペレット）や植物バイオマスを活用する試みを行っています。",
         EN: "Developing diversified environmental businesses through the promotion of marine industries in Asia and collaboration with Mother Vegetable. In the marine sector, we are engaged in seaweed bed restoration (blue carbon) and water quality improvement. In the biomass sector, we produce and supply liquid fuels such as biodiesel and bioethanol from oil-bearing plants, aiming to increase energy self-sufficiency. In the agricultural sector, we are promoting improvements in food self-sufficiency and reducing feed costs for dairy and livestock farmers through the use of biostimulants (biomass ion pellets) and plant biomass."
       }),
-      image: "/ag.jpg"
+      image: "/images/agri_logo.jpg"
     },
    {
       name: t({ JP: "黒井漁業協同組合", EN: "Kuroi Fishery Cooperative" }),
