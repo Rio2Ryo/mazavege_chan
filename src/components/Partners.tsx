@@ -198,10 +198,10 @@ export default function Partners() {
       image: "/pta.jpeg"
     },
     {
-      name: "LEON",
+      name: t({ JP: "LEON 一級建築士事務所", EN: "LEON First-Class Architect Office" }),
       description: t({
-        JP: "アパレル雑誌LEONの不動産部門：20年以上の歴史を持つ日本の紳士向けアパレル雑誌で、40代から50代の富裕層をターゲットとし、月間約1,000万ページビューを誇ります。プロジェクト：彼らは日本全国に高級宿泊施設を建設する計画で、そこには家族がマザーベジタブルを体験し、地元の収穫物で作られた食事を楽しめるMother Vegetable施設が併設されます。",
-        EN: "Real estate division of apparel magazine LEON: A Japanese men's apparel magazine with over 20 years of history, targeting affluent individuals in their 40s and 50s, boasting approximately 10 million monthly page views. Project: They plan to build luxury accommodation facilities across Japan, featuring Mother Vegetable facilities where families can experience Mother Vegetable and enjoy meals made with local harvests."
+        JP: "アパレル雑誌LEONの不動産部門：20年以上の歴史を持つ日本の紳士向けアパレル雑誌で、40代から50代の富裕層をターゲットとし、月間約1,000万ページビューを誇るLEONが建築部門を展開。日本全国に高級宿泊施設を建設する計画で、そこではマザーベジタブルの肥料や飼料によって作られた各地の特産物を体験いただけるようになる計画です。",
+        EN: "The real estate division of LEON, a Japanese men's fashion magazine with over 20 years of history, targeting affluent men in their 40s and 50s and boasting approximately 10 million monthly page views, is expanding into the architectural sector.The plan is to construct luxury accommodation facilities across Japan, where guests will be able to experience regional specialties produced using fertilizers and feed from Mother Vegetable."
       }),
       image: "/leon.jpeg"
     },
@@ -221,6 +221,15 @@ export default function Partners() {
     //   }),
     //   image: "/Kyushudenko.jpeg"
     // },
+    {
+      name: t({ JP: "JF和歌山東漁業協同組合", EN: "JF Wakayama East Fisheries Cooperative Association" }),
+      description: t({
+        JP: "エビの養殖や近隣地域と協力したMother Vegetable×特産物の商品開発",
+        EN: "Engaged in shrimp aquaculture and the development of collaborative products combining Mother Vegetable with regional specialties in partnership with neighboring communities."
+      }),
+      image: "/jfhigashi.png",
+      url: "http://www.jf-wakayamahigashi.jp/"
+    },
     {
       name: t({ JP: "全国姉妹漁業振興協議会株式会社", EN: "National Sister Fisheries Promotion Council Inc." }),
       description: t({
