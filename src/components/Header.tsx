@@ -46,12 +46,14 @@ export default function Header() {
 
           {/* Navigation Menu */}
           <nav className="flex items-center space-x-1 lg:space-x-2">
+            {/* Products タブ一時非表示
             <button
               onClick={() => window.location.href = 'https://mothervegetable.com/'}
               className="px-3 md:px-4 py-2 text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
               Products
             </button>
+            */}
             <button
               onClick={() => window.location.href = '/athlete'}
               className="px-3 md:px-4 py-2 text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
