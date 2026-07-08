@@ -320,33 +320,91 @@ export default function Partners() {
           </h2>
         </div>
 
-        {/* Government Partners */}
+        {/* Group Companies - Kirin HD Style */}
         <div className="mb-16">
           <h3 className="text-xl font-bold text-white text-center mb-8">
             {t({ JP: '日本・マレーシア・シンガポール・米国を拠点に事業を展開するグローバル企業グループ。', EN: 'A global corporate group operating across Japan, Malaysia, Singapore, and the United States.' })}
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {governmentPartners.map((partner, index) => (
-              <div
-                key={index}
-                className="bg-gray-800/50 backdrop-blur-md border border-gray-700/50 rounded-xl p-6 text-center hover:border-blue-500/50 transition-all duration-300 hover:scale-105"
-              >
-                <div className="relative w-40 h-40 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-white via-gray-50 to-gray-100 shadow-lg overflow-hidden">
-                  <Image
-                    src={partner.image}
-                    alt={partner.name}
-                    fill
-                    className="object-contain p-4 drop-shadow-md"
-                    quality={100}
-                    priority
-                    sizes="(max-width: 768px) 160px, 160px"
-                  />
+          <div className="max-w-4xl mx-auto bg-gray-800/40 backdrop-blur-md border border-gray-700/50 rounded-2xl p-8 md:p-12">
+            <div className="border-b border-gray-600/50 pb-6 mb-8">
+              <h4 className="text-2xl font-bold text-white">
+                {t({ JP: 'グループ企業', EN: 'Group Companies' })}
+              </h4>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10">
+              {/* Japan */}
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="w-3 h-3 rounded-full bg-red-500 flex-shrink-0" />
+                  <h5 className="text-xl font-bold text-white">Japan</h5>
                 </div>
-                <h4 className="text-lg font-bold text-white mb-2">{partner.name}</h4>
-                <p className="text-blue-400 text-sm font-semibold mb-3">{partner.subtitle}</p>
-                <p className="text-gray-300 text-xs leading-[1.8]">{partner.description}</p>
+                <ul className="space-y-2 ml-6">
+                  <li className="text-gray-300 text-sm flex items-start gap-2">
+                    <span className="text-gray-500 mt-0.5">›</span>
+                    <span>Mother Vegetable Co., Ltd.</span>
+                  </li>
+                  <li className="text-gray-300 text-sm flex items-start gap-2">
+                    <span className="text-gray-500 mt-0.5">›</span>
+                    <span>Mother Vegetable Lab Co., Ltd.</span>
+                  </li>
+                  <li className="text-gray-300 text-sm flex items-start gap-2">
+                    <span className="text-gray-500 mt-0.5">›</span>
+                    <span>National Sister Fisheries Promotion Council Co., Ltd.</span>
+                  </li>
+                </ul>
               </div>
-            ))}
+              {/* Malaysia */}
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="w-3 h-3 rounded-full bg-blue-500 flex-shrink-0" />
+                  <h5 className="text-xl font-bold text-white">Malaysia</h5>
+                </div>
+                <ul className="space-y-2 ml-6">
+                  <li className="text-gray-300 text-sm flex items-start gap-2">
+                    <span className="text-gray-500 mt-0.5">›</span>
+                    <span>Mother Vegetable Partners Sdn. Bhd.</span>
+                  </li>
+                  <li className="text-gray-300 text-sm flex items-start gap-2">
+                    <span className="text-gray-500 mt-0.5">›</span>
+                    <span>Algae International Berhad</span>
+                  </li>
+                  <li className="text-gray-300 text-sm flex items-start gap-2">
+                    <span className="text-gray-500 mt-0.5">›</span>
+                    <span>Revoganix Sdn. Bhd.</span>
+                  </li>
+                  <li className="text-gray-300 text-sm flex items-start gap-2">
+                    <span className="text-gray-500 mt-0.5">›</span>
+                    <span>AICO Robotics Sdn. Bhd.</span>
+                  </li>
+                </ul>
+              </div>
+              {/* Singapore */}
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="w-3 h-3 rounded-full bg-emerald-500 flex-shrink-0" />
+                  <h5 className="text-xl font-bold text-white">Singapore</h5>
+                </div>
+                <ul className="space-y-2 ml-6">
+                  <li className="text-gray-300 text-sm flex items-start gap-2">
+                    <span className="text-gray-500 mt-0.5">›</span>
+                    <span>Mother Vegetable Pte. Ltd.</span>
+                  </li>
+                </ul>
+              </div>
+              {/* USA */}
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="w-3 h-3 rounded-full bg-amber-500 flex-shrink-0" />
+                  <h5 className="text-xl font-bold text-white">USA</h5>
+                </div>
+                <ul className="space-y-2 ml-6">
+                  <li className="text-gray-300 text-sm flex items-start gap-2">
+                    <span className="text-gray-500 mt-0.5">›</span>
+                    <span>Financial Services Associates Inc.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
 
