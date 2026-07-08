@@ -15,7 +15,7 @@ export default function Partners() {
   const { t } = useLanguage()
 
   const governmentPartners = [
-   
+
     {
       name: "ASEAN",
       subtitle: t({ JP: "東南アジア諸国連合", EN: "Association of Southeast Asian Nations" }),
@@ -181,7 +181,7 @@ export default function Partners() {
       }),
       image: "/images/agri_logo.jpg"
     },
-   {
+    {
       name: t({ JP: "黒井漁業協同組合", EN: "Kuroi Fishery Cooperative" }),
       description: t({
         JP: "日本の下関市に位置する漁協組合：磯焼けによる空ウニの大量発生や養殖に対して課題を持っており、MOTHER VEGETABLEを活用することで局所的な磯焼け解決や効率的な養殖を進めている。",
@@ -239,14 +239,14 @@ export default function Partners() {
       image: "/sfc.jpeg",
       url: "https://www.nsfpcouncil.com/"
     },
-    
-     // {
-     // name: "MO",
-     // description: t({
+
+    // {
+    // name: "MO",
+    // description: t({
     //    JP: "株式会社MOは、日本にていち早くマザーベジタブルを提供すべく、マーケティング調査、販売企画、改善点等を研究開発し、日本国内での販売戦略をサポートしています。",
-     //   EN: "MO Corporation conducts marketing research, sales planning, and R&D for improvements to provide Mother Vegetable early in Japan, supporting domestic sales strategies in Japan."
+    //   EN: "MO Corporation conducts marketing research, sales planning, and R&D for improvements to provide Mother Vegetable early in Japan, supporting domestic sales strategies in Japan."
     //  }),
-   //   image: "/mo_logo.png"
+    //   image: "/mo_logo.png"
     // }
   ]
 
@@ -314,16 +314,16 @@ export default function Partners() {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          
+
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
-            {t({ JP: 'パートナーシップ', EN: 'Partnerships' })}
+            {t({ JP: 'マザーベジタブルグループ', EN: 'Mother Vegetable Group Companies' })}
           </h2>
         </div>
 
         {/* Government Partners */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold text-blue-400 text-center mb-8">
-            {t({ JP: '政府・公的機関・地域パートナー', EN: 'Government, Public Institutions & Regional Partners' })}
+          <h3 className="text-xl font-bold text-white text-center mb-8">
+            {t({ JP: '日本・マレーシア・シンガポール・米国を拠点に事業を展開するグローバル企業グループ。', EN: 'A global corporate group operating across Japan, Malaysia, Singapore, and the United States.' })}
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {governmentPartners.map((partner, index) => (
