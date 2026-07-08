@@ -315,14 +315,14 @@ export default function Partners() {
         {/* Section Header */}
         <div className="text-center mb-16">
 
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
+          <h2 className="text-xl md:text-4xl font-bold text-white mb-8">
             {t({ JP: 'マザーベジタブルグループ', EN: 'Mother Vegetable Group Companies' })}
           </h2>
         </div>
 
         {/* Group Companies - Kirin HD Style */}
         <div className="mb-16">
-          <h3 className="text-xl font-bold text-white text-center mb-8">
+          <h3 className="text-base md:text-xl font-bold text-white text-center mb-8">
             {t({ JP: '日本・マレーシア・シンガポール・米国を拠点に事業を展開するグローバル企業グループ。', EN: 'A global corporate group operating across Japan, Malaysia, Singapore, and the United States.' })}
           </h3>
           <div className="max-w-4xl mx-auto bg-gray-800/40 backdrop-blur-md border border-gray-700/50 rounded-2xl p-8 md:p-12">
