@@ -329,7 +329,7 @@ export default function Partners() {
             <div className="flex flex-col gap-10">
               {/* Japan */}
               <div>
-                <h5 className="text-xl font-bold text-white mb-4">{t({ JP: '日本', EN: 'Japan' })}</h5>
+                <h5 className="text-lg md:text-xl font-bold text-white mb-4">{t({ JP: '日本', EN: 'Japan' })}</h5>
                 <ul className="space-y-2 md:ml-6">
                   <li className="text-gray-300 text-sm md:text-base">
                     {t({ JP: '株式会社マザーベジタブル', EN: 'Mother Vegetable Co., Ltd.' })}
@@ -344,7 +344,7 @@ export default function Partners() {
               </div>
               {/* Malaysia */}
               <div>
-                <h5 className="text-xl font-bold text-white mb-4">{t({ JP: 'マレーシア', EN: 'Malaysia' })}</h5>
+                <h5 className="text-lg md:text-xl font-bold text-white mb-4">{t({ JP: 'マレーシア', EN: 'Malaysia' })}</h5>
                 <ul className="space-y-2 md:ml-6">
                   <li className="text-gray-300 text-sm md:text-base">
                     {t({ JP: 'マザーベジタブルパートナーズ Sdn. Bhd.', EN: 'Mother Vegetable Partners Sdn. Bhd.' })}
@@ -362,7 +362,7 @@ export default function Partners() {
               </div>
               {/* Singapore */}
               <div>
-                <h5 className="text-xl font-bold text-white mb-4">{t({ JP: 'シンガポール', EN: 'Singapore' })}</h5>
+                <h5 className="text-lg md:text-xl font-bold text-white mb-4">{t({ JP: 'シンガポール', EN: 'Singapore' })}</h5>
                 <ul className="space-y-2 md:ml-6">
                   <li className="text-gray-300 text-sm md:text-base">
                     {t({ JP: 'マザーベジタブル Pte. Ltd.', EN: 'Mother Vegetable Pte. Ltd.' })}
@@ -371,7 +371,7 @@ export default function Partners() {
               </div>
               {/* USA */}
               <div>
-                <h5 className="text-xl font-bold text-white mb-4">{t({ JP: 'アメリカ', EN: 'USA' })}</h5>
+                <h5 className="text-lg md:text-xl font-bold text-white mb-4">{t({ JP: 'アメリカ', EN: 'USA' })}</h5>
                 <ul className="space-y-2 md:ml-6">
                   <li className="text-gray-300 text-sm md:text-base">
                     {t({ JP: 'フィナンシャル・サービシズ・アソシエイツ Inc.', EN: 'Financial Services Associates Inc.' })}
