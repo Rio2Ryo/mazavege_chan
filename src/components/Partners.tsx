@@ -338,7 +338,7 @@ export default function Partners() {
                     {t({ JP: '株式会社マザーベジタブルラボ', EN: 'Mother Vegetable Lab Co., Ltd.' })}
                   </li>
                   <li className="text-gray-300 text-base">
-                    {t({ JP: '全国姉妹漁業振興協議会株式会社', EN: 'National Sister Fisheries Promotion Council Co., Ltd.' })}
+                    {t({ JP: '全国姉妹漁協推進協議会株式会社', EN: 'National Sister Fisheries Promotion Council Co., Ltd.' })}
                   </li>
                 </ul>
               </div>
