@@ -331,17 +331,14 @@ export default function Partners() {
               <div>
                 <h5 className="text-xl font-bold text-white mb-4">{t({ JP: '日本', EN: 'Japan' })}</h5>
                 <ul className="space-y-2 ml-6">
-                  <li className="text-gray-300 text-sm flex items-start gap-2">
-                    <span className="text-gray-500 mt-0.5">›</span>
-                    <span>{t({ JP: '株式会社マザーベジタブル', EN: 'Mother Vegetable Co., Ltd.' })}</span>
+                  <li className="text-gray-300 text-base">
+                    {t({ JP: '株式会社マザーベジタブル', EN: 'Mother Vegetable Co., Ltd.' })}
                   </li>
-                  <li className="text-gray-300 text-sm flex items-start gap-2">
-                    <span className="text-gray-500 mt-0.5">›</span>
-                    <span>{t({ JP: '株式会社マザーベジタブルラボ', EN: 'Mother Vegetable Lab Co., Ltd.' })}</span>
+                  <li className="text-gray-300 text-base">
+                    {t({ JP: '株式会社マザーベジタブルラボ', EN: 'Mother Vegetable Lab Co., Ltd.' })}
                   </li>
-                  <li className="text-gray-300 text-sm flex items-start gap-2">
-                    <span className="text-gray-500 mt-0.5">›</span>
-                    <span>{t({ JP: '全国姉妹漁業振興協議会株式会社', EN: 'National Sister Fisheries Promotion Council Co., Ltd.' })}</span>
+                  <li className="text-gray-300 text-base">
+                    {t({ JP: '全国姉妹漁業振興協議会株式会社', EN: 'National Sister Fisheries Promotion Council Co., Ltd.' })}
                   </li>
                 </ul>
               </div>
@@ -349,21 +346,17 @@ export default function Partners() {
               <div>
                 <h5 className="text-xl font-bold text-white mb-4">{t({ JP: 'マレーシア', EN: 'Malaysia' })}</h5>
                 <ul className="space-y-2 ml-6">
-                  <li className="text-gray-300 text-sm flex items-start gap-2">
-                    <span className="text-gray-500 mt-0.5">›</span>
-                    <span>Mother Vegetable Partners Sdn. Bhd.</span>
+                  <li className="text-gray-300 text-base">
+                    {t({ JP: 'マザーベジタブルパートナーズ Sdn. Bhd.', EN: 'Mother Vegetable Partners Sdn. Bhd.' })}
                   </li>
-                  <li className="text-gray-300 text-sm flex items-start gap-2">
-                    <span className="text-gray-500 mt-0.5">›</span>
-                    <span>Algae International Berhad</span>
+                  <li className="text-gray-300 text-base">
+                    {t({ JP: 'アルジー・インターナショナル Berhad', EN: 'Algae International Berhad' })}
                   </li>
-                  <li className="text-gray-300 text-sm flex items-start gap-2">
-                    <span className="text-gray-500 mt-0.5">›</span>
-                    <span>Revoganix Sdn. Bhd.</span>
+                  <li className="text-gray-300 text-base">
+                    {t({ JP: 'レヴォガニクス Sdn. Bhd.', EN: 'Revoganix Sdn. Bhd.' })}
                   </li>
-                  <li className="text-gray-300 text-sm flex items-start gap-2">
-                    <span className="text-gray-500 mt-0.5">›</span>
-                    <span>AICO Robotics Sdn. Bhd.</span>
+                  <li className="text-gray-300 text-base">
+                    {t({ JP: 'AICOロボティクス Sdn. Bhd.', EN: 'AICO Robotics Sdn. Bhd.' })}
                   </li>
                 </ul>
               </div>
@@ -371,9 +364,8 @@ export default function Partners() {
               <div>
                 <h5 className="text-xl font-bold text-white mb-4">{t({ JP: 'シンガポール', EN: 'Singapore' })}</h5>
                 <ul className="space-y-2 ml-6">
-                  <li className="text-gray-300 text-sm flex items-start gap-2">
-                    <span className="text-gray-500 mt-0.5">›</span>
-                    <span>Mother Vegetable Pte. Ltd.</span>
+                  <li className="text-gray-300 text-base">
+                    {t({ JP: 'マザーベジタブル Pte. Ltd.', EN: 'Mother Vegetable Pte. Ltd.' })}
                   </li>
                 </ul>
               </div>
@@ -381,9 +373,8 @@ export default function Partners() {
               <div>
                 <h5 className="text-xl font-bold text-white mb-4">{t({ JP: 'アメリカ', EN: 'USA' })}</h5>
                 <ul className="space-y-2 ml-6">
-                  <li className="text-gray-300 text-sm flex items-start gap-2">
-                    <span className="text-gray-500 mt-0.5">›</span>
-                    <span>Financial Services Associates Inc.</span>
+                  <li className="text-gray-300 text-base">
+                    {t({ JP: 'フィナンシャル・サービシズ・アソシエイツ Inc.', EN: 'Financial Services Associates Inc.' })}
                   </li>
                 </ul>
               </div>
