@@ -315,8 +315,8 @@ export default function Partners() {
         {/* Section Header */}
         <div className="text-center mb-16">
 
-          <h2 className="text-lg md:text-4xl font-bold text-white mb-8">
-            {t({ JP: 'マザーベジタブルグループ', EN: 'Mother Vegetable Group Companies' })}
+          <h2 className="text-xl md:text-4xl font-bold text-white mb-8">
+            {t({ JP: 'マザーベジタブルグループ', EN: 'Mother Vegetable Group\nCompanies' })}
           </h2>
         </div>
 
