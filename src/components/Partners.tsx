@@ -221,24 +221,24 @@ export default function Partners() {
     //   }),
     //   image: "/Kyushudenko.jpeg"
     // },
-    {
-      name: t({ JP: "JF和歌山東漁業協同組合", EN: "JF Wakayama East Fisheries Cooperative Association" }),
-      description: t({
-        JP: "エビの養殖や近隣地域と協力したMother Vegetable×特産物の商品開発",
-        EN: "Engaged in shrimp aquaculture and the development of collaborative products combining Mother Vegetable with regional specialties in partnership with neighboring communities."
-      }),
-      image: "/jfhigashi.png",
-      url: "http://www.jf-wakayamahigashi.jp/"
-    },
-    {
-      name: t({ JP: "全国姉妹漁業振興協議会株式会社", EN: "National Sister Fisheries Promotion Council Inc." }),
-      description: t({
-        JP: "河津町との連携による海洋事業開発とMother Vegetable事業の推進。全国の漁業組合の連絡窓口を実施。",
-        EN: "Promoting marine business development and Mother Vegetable business through collaboration with Kawazu Town. Implementing communication channels for fishery associations nationwide."
-      }),
-      image: "/sfc.jpeg",
-      url: "https://www.nsfpcouncil.com/"
-    },
+    // {
+    //   name: t({ JP: "JF和歌山東漁業協同組合", EN: "JF Wakayama East Fisheries Cooperative Association" }),
+    //   description: t({
+    //     JP: "エビの養殖や近隣地域と協力したMother Vegetable×特産物の商品開発",
+    //     EN: "Engaged in shrimp aquaculture and the development of collaborative products combining Mother Vegetable with regional specialties in partnership with neighboring communities."
+    //   }),
+    //   image: "/jfhigashi.png",
+    //   url: "http://www.jf-wakayamahigashi.jp/"
+    // },
+    // {
+    //   name: t({ JP: "全国姉妹漁業振興協議会株式会社", EN: "National Sister Fisheries Promotion Council Inc." }),
+    //   description: t({
+    //     JP: "河津町との連携による海洋事業開発とMother Vegetable事業の推進。全国の漁業組合の連絡窓口を実施。",
+    //     EN: "Promoting marine business development and Mother Vegetable business through collaboration with Kawazu Town. Implementing communication channels for fishery associations nationwide."
+    //   }),
+    //   image: "/sfc.jpeg",
+    //   url: "https://www.nsfpcouncil.com/"
+    // },
 
     // {
     // name: "MO",
@@ -331,7 +331,7 @@ export default function Partners() {
                 {t({ JP: 'グループ企業', EN: 'Group Companies' })}
               </h4>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10">
+            <div className="flex flex-col gap-10">
               {/* Japan */}
               <div>
                 <div className="flex items-center gap-3 mb-4">
@@ -408,8 +408,8 @@ export default function Partners() {
           </div>
         </div>
 
-        {/* University Partners */}
-        <div className="mb-16">
+        {/* University Partners - HIDDEN (ASEAN to NSFPC range) */}
+        {/* <div className="mb-16">
           <h3 className="text-2xl font-bold text-cyan-400 text-center mb-8">
             {t({ JP: '学術・研究機関', EN: 'Academic & Research Institutions' })}
           </h3>
@@ -437,10 +437,10 @@ export default function Partners() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
-        {/* Japanese Authorities */}
-        <div className="mb-16">
+        {/* Japanese Authorities - HIDDEN (ASEAN to NSFPC range) */}
+        {/* <div className="mb-16">
           <h3 className="text-2xl font-bold text-green-400 text-center mb-8">
             {t({ JP: '行政・地方自治体', EN: 'Administration & Local Governments' })}
           </h3>
@@ -468,10 +468,10 @@ export default function Partners() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
-        {/* International Organizations */}
-        <div className="mb-16">
+        {/* International Organizations - HIDDEN (ASEAN to NSFPC range) */}
+        {/* <div className="mb-16">
           <h3 className="text-2xl font-bold text-purple-400 text-center mb-8">
             {t({ JP: '国際機関', EN: 'International Organizations' })}
           </h3>
@@ -497,10 +497,10 @@ export default function Partners() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
-        {/* Other Partners */}
-        <div>
+        {/* Other Partners - HIDDEN (ASEAN to NSFPC range) */}
+        {/* <div>
           <h3 className="text-2xl font-bold text-orange-400 text-center mb-8">
             {t({ JP: 'その他の提携組織・プロジェクト', EN: 'Other Partner Organizations & Projects' })}
           </h3>
@@ -547,7 +547,7 @@ export default function Partners() {
               )
             })}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
