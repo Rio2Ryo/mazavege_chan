@@ -12,7 +12,7 @@ interface Partner {
 }
 
 export default function Partners() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
 
   const governmentPartners = [
 
@@ -316,7 +316,16 @@ export default function Partners() {
         <div className="text-center mb-16">
 
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
-            {t({ JP: 'マザーベジタブルグループ', EN: 'Mother Vegetable Group\nCompanies' })}
+            {language === 'EN' ? (
+              <>
+                Mother Vegetable
+                <br className="md:hidden" />
+                <span className="hidden md:inline"> </span>
+                Group Companies
+              </>
+            ) : (
+              t({ JP: 'マザーベジタブルグループ', EN: 'Mother Vegetable Group Companies' })
+            )}
           </h2>
         </div>
 
