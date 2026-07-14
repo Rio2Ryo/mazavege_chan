@@ -158,7 +158,7 @@ export default function Hero() {
          {/* SDGs */}
         <div className="relative left-1/2 w-[92vw] max-w-2xl -translate-x-1/2 px-2 sm:px-4">
           <p className="flex items-center justify-center gap-1.5 text-center [font-family:var(--font-geist-mono)] text-[10px] font-medium uppercase tracking-[0.15em] text-[#40f789] sm:text-[11px]">
-            <span aria-hidden="true" className="text-[12px] leading-none">🌱</span>
+            <span aria-hidden="true" className="text-[12px] leading-none">🌿</span>
             Growing a Sustainable Future
           </p>
 
@@ -175,10 +175,10 @@ export default function Hero() {
                   height={128}
                   className="h-8 w-8 shrink-0 rounded-[3px] md:h-9 md:w-9 lg:h-10 lg:w-10"
                 />
-                <span className="mt-1.5 hyphens-auto break-words text-center [font-family:var(--font-bricolage-grotesque)] text-[10px] font-semibold leading-tight text-white/85 md:mt-2 md:text-xs lg:text-[13px]">
+                <span className="mt-1.5 hyphens-auto break-words text-center [font-family:var(--font-inter)] text-[10px] font-normal leading-tight text-white/85 md:mt-2 md:text-xs lg:text-[13px]">
                   {goal.title}
                 </span>
-                <span className="mt-auto pt-2 text-center [font-family:var(--font-geist-mono)] text-[8px] font-medium uppercase tracking-[0.1em] text-white/55 md:pt-2.5 md:text-[9px] lg:text-[10px]">
+                <span className="mt-auto pt-2 text-center [font-family:var(--font-geist-mono)] text-[9px] font-medium uppercase tracking-[0.1em] text-white/55 md:pt-2.5 md:text-[10px]">
                   SDG {goal.number}
                 </span>
               </li>
