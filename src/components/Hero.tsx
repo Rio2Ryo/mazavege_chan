@@ -95,7 +95,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center max-w-7xl mx-auto px-4 transition-all duration-1500 pt-40 md:pt-48 lg:pt-56">
+      <div className="relative z-10 text-center max-w-7xl mx-auto px-4 transition-all duration-1500 pt-40 md:pb-8 md:pt-48 lg:pt-56">
         {/* Title Section - Single Component */}
         <div className="mb-12">
 
@@ -176,7 +176,9 @@ export default function Hero() {
                   className="h-8 w-8 shrink-0 rounded-[3px] md:h-9 md:w-9 lg:h-10 lg:w-10"
                 />
                 <span className="mt-1.5 hyphens-auto break-words text-center font-bricolage text-[10px] font-semibold leading-tight text-white/85 md:mt-2 md:text-[12px] lg:text-[13px]">
-                  {goal.title}
+                  {goal.number === '13' ? (
+                    <>Climate<br />Action</>
+                  ) : goal.title}
                 </span>
                 <span className="mt-auto pt-1 text-center font-mono text-[9px] font-medium uppercase tracking-[0.1em] text-white/55 md:pt-1.5 md:text-[10px] md:tracking-[0.12em]">
                   SDG {goal.number}
