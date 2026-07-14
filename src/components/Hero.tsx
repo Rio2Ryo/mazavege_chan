@@ -15,6 +15,22 @@ const sdgGoals = [
     image: '/images/E-WEB-Goal-02.webp',
   },
   {
+    number: '3',
+    title: {
+      JP: 'すべての人に健康と福祉を',
+      EN: 'Good Health and Well-being',
+    },
+    image: '/images/E-WEB-Goal-03.webp',
+  },
+  {
+    number: '9',
+    title: {
+      JP: '産業と技術革新の基盤をつくろう',
+      EN: 'Industry, Innovation and Infrastructure',
+    },
+    image: '/images/E-WEB-Goal-09.webp',
+  },
+  {
     number: '11',
     title: {
       JP: '住み続けられるまちづくりを',
@@ -168,7 +184,7 @@ export default function Hero() {
         </div>
 
          {/* SDGs */}
-        <div className="relative left-1/2 w-[92vw] max-w-2xl -translate-x-1/2 px-2 sm:px-4">
+        <div className="relative left-1/2 w-[92vw] max-w-[788px] -translate-x-1/2 px-2 sm:px-4">
           <p className="flex items-center justify-center gap-1.5 text-center font-mono text-[10px] font-medium uppercase tracking-[0.15em] text-[#25C760]/90 sm:text-[11px]">
             <span aria-hidden="true">🌿</span>
             {t({
@@ -177,11 +193,11 @@ export default function Hero() {
             })}
           </p>
 
-          <ul className="mt-2.5 flex items-stretch justify-center gap-1.5 md:mt-3 md:gap-3">
+          <ul className="mt-2.5 grid grid-cols-3 items-stretch justify-center gap-1.5 md:mt-3 md:grid-cols-6 md:gap-3">
             {sdgGoals.map((goal) => (
               <li
                 key={goal.number}
-                className="flex min-w-0 flex-1 basis-0 flex-col items-center rounded-[10px] border border-white/10 px-1.5 pb-2 pt-2.5 md:w-[104px] md:flex-none md:px-3 md:pb-2.5 md:pt-3 lg:w-[116px]"
+                className="flex min-w-0 flex-col items-center rounded-[10px] border border-white/10 px-1.5 pb-2 pt-2.5 md:min-h-40 md:px-3 md:pb-2.5 md:pt-3"
               >
                 <Image
                   src={goal.image}
